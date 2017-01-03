@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="589543d4-f6ef-4fa0-98e6-c853d921b43e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/cf454aa6b2cb2392cde30efe2a86209eb52abf69/_init.scssc" afterPath="$PROJECT_DIR$/.sass-cache/cf454aa6b2cb2392cde30efe2a86209eb52abf69/_init.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/cf454aa6b2cb2392cde30efe2a86209eb52abf69/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/cf454aa6b2cb2392cde30efe2a86209eb52abf69/style.scssc" />
+    <list default="true" id="589543d4-f6ef-4fa0-98e6-c853d921b43e" name="Default" comment="alteração">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_animate.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_collapse.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_form-select.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_hover.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_layout.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_lightbox.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_menu-mobile.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_mobile.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_swiper.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.sass-cache/75fcaf1b4852ceb732871195e41567cc2a7d8997/A%058/xampp/htdocs/_/new-mp/includes/css/sass/_tooltips.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/cf454aa6b2cb2392cde30efe2a86209eb52abf69/_functions.scssc" afterPath="$PROJECT_DIR$/.sass-cache/cf454aa6b2cb2392cde30efe2a86209eb52abf69/_functions.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/css/sass/_init.scss" afterPath="$PROJECT_DIR$/includes/css/sass/_init.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/css/lib/neutron/_floatbox.scss" afterPath="$PROJECT_DIR$/includes/css/lib/neutron/_floatbox.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/css/sass/_functions.scss" afterPath="$PROJECT_DIR$/includes/css/sass/_functions.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/css/style.css" afterPath="$PROJECT_DIR$/includes/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +31,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_init.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/css/sass/style.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_init.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/css/sass/_init.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="720">
+              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_functions.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/css/sass/_functions.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_floatbox.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/css/lib/neutron/_floatbox.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="328" column="17" lean-forward="true" selection-start-line="328" selection-start-column="17" selection-end-line="328" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -63,6 +113,8 @@
         <option value="$PROJECT_DIR$/includes/css/sass/style.scss" />
         <option value="$PROJECT_DIR$/home.php" />
         <option value="$PROJECT_DIR$/includes/css/sass/_init.scss" />
+        <option value="$PROJECT_DIR$/includes/css/sass/_functions.scss" />
+        <option value="$PROJECT_DIR$/includes/css/lib/neutron/_floatbox.scss" />
       </list>
     </option>
   </component>
@@ -210,7 +262,33 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="neutron" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new-mp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="new-mp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,7 +389,7 @@
       <workItem from="1483450549706" duration="2118000" />
       <workItem from="1483460069594" duration="24000" />
       <workItem from="1483460327363" duration="591000" />
-      <workItem from="1483461480000" duration="95000" />
+      <workItem from="1483461480000" duration="611000" />
     </task>
     <task id="LOCAL-00001" summary="alteração">
       <created>1483451099897</created>
@@ -341,23 +419,30 @@
       <option name="project" value="LOCAL" />
       <updated>1483460775488</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="alteração">
+      <created>1483461575100</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1483461575100</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10432000" />
+    <option name="totallyTimeSpent" value="10948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10341151" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19264069" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19264069" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -386,7 +471,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/js/jquery.js" />
     <entry file="file://$PROJECT_DIR$/foundation/js/app.js" />
     <entry file="file://$PROJECT_DIR$/includes/css/lib/foundation/foundation.css" />
     <entry file="file://$PROJECT_DIR$/foundation/index.html" />
@@ -440,17 +524,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css/lib/neutron/_floatbox.scss">
+    <entry file="file://$PROJECT_DIR$/includes/css/sass/_init.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="720">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css/sass/style.scss">
+    <entry file="file://$PROJECT_DIR$/includes/css/sass/_functions.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="200">
+          <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/css/lib/neutron/_floatbox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="328" column="17" lean-forward="true" selection-start-line="328" selection-start-column="17" selection-end-line="328" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -462,10 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includes/css/sass/_init.scss">
+    <entry file="file://$PROJECT_DIR$/includes/css/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="720">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>

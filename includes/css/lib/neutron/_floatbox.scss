@@ -314,3 +314,24 @@
 
   @return $child-selector;
 }
+
+// Exemplo
+/*
+section {
+  @include columns((4), $margin: 5px, $container-width: 100%);
+
+  @include breakpoint(mobile) {
+    @include columns(1);
+  }
+
+  a {
+    height: auto;
+    float: left;
+    background: #000;
+
+    img {
+      @include mp-imgresponsive;
+    }
+  }
+}
+*/
