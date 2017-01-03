@@ -35,6 +35,15 @@ body {
   background: $corPrincipal;
 }
 
+a {
+  color: $corPrincipal;
+
+  &:hover {
+    color: $corSecundaria;
+  }
+}
+
+
 a,
 button,
 input[type="image"] {
