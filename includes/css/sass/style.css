@@ -1,0 +1,847 @@
+/* line 6, _init.scss */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* line 10, _init.scss */
+::-webkit-scrollbar-track {
+    background-color: #ddd;
+}
+
+/* line 14, _init.scss */
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+/* line 18, _init.scss */
+a,
+button,
+input[type="image"] {
+    cursor: pointer;
+    text-decoration: none;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    -webkit-tap-highlight-color: transparent;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+/* line 30, _init.scss */
+body,
+input,
+button,
+textarea {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    outline: none;
+}
+
+/* line 42, _init.scss */
+input[type=text],
+input[type=email],
+input[type=password],
+textarea {
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    -webkit-tap-highlight-color: transparent;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+
+/* line 50, _init.scss */
+input[type=text]:hover,
+input[type=email]:hover,
+input[type=password]:hover,
+textarea:hover {
+    border-color: #000;
+}
+
+/* line 56, _init.scss */
+.responsive {
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* line 63, _init.scss */
+.fluid {
+    width: 100%;
+    height: auto;
+    float: left;
+    clear: both;
+}
+
+/* line 71, _init.scss */
+a:hover, a.ativo {
+    color: #000 !important;
+}
+
+/* line 83, _init.scss */
+.swiper-wrapper {
+    opacity: 0;
+}
+
+/* line 87, _init.scss */
+#destaque .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+}
+
+/* line 93, _init.scss */
+#destaque .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 20px;
+}
+
+/* line 97, _init.scss */
+.swiper-button-disabled {
+    cursor: no-drop !important;
+}
+
+/********************************* Core ******************************/
+/* line 111, _tooltips.scss */
+[data-tooltip] {
+    position: relative;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* line 115, _tooltips.scss */
+[data-tooltip]:before, [data-tooltip]:after {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999999;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/* line 127, _tooltips.scss */
+[data-tooltip]:before {
+    content: '';
+    border: 6px solid transparent;
+}
+
+/* line 132, _tooltips.scss */
+[data-tooltip]:after {
+    height: 22px;
+    padding: 11px 11px 0 11px;
+    font-size: 13px;
+    line-height: 11px;
+    content: attr(data-tooltip);
+    white-space: nowrap;
+}
+
+/* line 25, _tooltips.scss */
+[data-tooltip].simptip-position-top:before {
+    border-top-color: #323232;
+}
+
+/* line 28, _tooltips.scss */
+[data-tooltip].simptip-position-top:after {
+    background-color: #323232;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+[data-tooltip].simptip-position-bottom:before {
+    border-bottom-color: #323232;
+}
+
+/* line 28, _tooltips.scss */
+[data-tooltip].simptip-position-bottom:after {
+    background-color: #323232;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+[data-tooltip].simptip-position-left:before {
+    border-left-color: #323232;
+}
+
+/* line 28, _tooltips.scss */
+[data-tooltip].simptip-position-left:after {
+    background-color: #323232;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+[data-tooltip].simptip-position-right:before {
+    border-right-color: #323232;
+}
+
+/* line 28, _tooltips.scss */
+[data-tooltip].simptip-position-right:after {
+    background-color: #323232;
+    color: #ecf0f1;
+}
+
+/* line 37, _tooltips.scss */
+[data-tooltip].simptip-position-top.half-arrow:before {
+    border-right: 7px solid #323232;
+}
+
+/* line 37, _tooltips.scss */
+[data-tooltip].simptip-position-bottom.half-arrow:before {
+    border-right: 7px solid #323232;
+}
+
+/* line 141, _tooltips.scss */
+[data-tooltip]:hover, [data-tooltip]:focus {
+    background-color: transparent;
+}
+
+/* line 143, _tooltips.scss */
+[data-tooltip]:hover:before, [data-tooltip]:hover:after, [data-tooltip]:focus:before, [data-tooltip]:focus:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/******************************* Position ****************************/
+/* line 154, _tooltips.scss */
+.simptip-position-right:before, .simptip-position-left:before, .simptip-position-right:after, .simptip-position-left:after {
+    bottom: 50%;
+}
+
+/* line 157, _tooltips.scss */
+.simptip-position-right:before, .simptip-position-left:before {
+    margin-bottom: -5px;
+}
+
+/* line 161, _tooltips.scss */
+.simptip-position-right:after, .simptip-position-left:after {
+    margin-bottom: -14.66667px;
+}
+
+/* line 167, _tooltips.scss */
+.half-arrow.simptip-position-right:before, .half-arrow.simptip-position-left:before {
+    bottom: 16px;
+    border-style: none;
+    border-top: 7px solid transparent;
+}
+
+/* line 177, _tooltips.scss */
+.simptip-multiline.simptip-position-right:before, .simptip-multiline.simptip-position-left:before, .simptip-multiline.simptip-position-right:after, .simptip-multiline.simptip-position-left:after {
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%);
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    margin-bottom: 0;
+}
+
+/* line 184, _tooltips.scss */
+.simptip-multiline.simptip-position-right:before, .simptip-multiline.simptip-position-left:before {
+    margin-bottom: 0;
+}
+
+/* line 190, _tooltips.scss */
+.simptip-multiline.half-arrow.simptip-position-right:before, .simptip-multiline.half-arrow.simptip-position-left:before {
+    margin-bottom: -2px;
+}
+
+/* line 206, _tooltips.scss */
+.simptip-position-right:before, .simptip-position-right:after {
+    left: 100%;
+}
+
+/* line 209, _tooltips.scss */
+.simptip-position-right:before {
+    margin-left: -2px;
+}
+
+/* line 212, _tooltips.scss */
+.simptip-position-right:after {
+    margin-left: 10px;
+}
+
+/* line 218, _tooltips.scss */
+.simptip-position-right.simptip-movable:before {
+    margin-left: -10px;
+}
+
+/* line 221, _tooltips.scss */
+.simptip-position-right.simptip-movable:after {
+    margin-left: 2px;
+}
+
+/* line 225, _tooltips.scss */
+.simptip-position-right.simptip-movable:hover:before, .simptip-position-right.simptip-movable:hover:after {
+    -webkit-transform: translateX(10px);
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+    transform: translateX(10px);
+}
+
+/* line 230, _tooltips.scss */
+.simptip-position-right.simptip-movable.half-arrow:before {
+    margin-left: -5px;
+}
+
+/* line 237, _tooltips.scss */
+.simptip-position-right.simptip-movable.simptip-multiline:hover:before, .simptip-position-right.simptip-movable.simptip-multiline:hover:after {
+    -webkit-transform: translate(10px, 50%);
+    -moz-transform: translate(10px, 50%);
+    -ms-transform: translate(10px, 50%);
+    -o-transform: translate(10px, 50%);
+    transform: translate(10px, 50%);
+}
+
+/* line 249, _tooltips.scss */
+.simptip-position-right.half-arrow:before {
+    margin-left: 3px;
+    border-right: 7px solid #323232;
+}
+
+/* line 262, _tooltips.scss */
+.simptip-position-left:before, .simptip-position-left:after {
+    right: 100%;
+}
+
+/* line 265, _tooltips.scss */
+.simptip-position-left:before {
+    margin-right: -2px;
+}
+
+/* line 268, _tooltips.scss */
+.simptip-position-left:after {
+    margin-right: 10px;
+}
+
+/* line 274, _tooltips.scss */
+.simptip-position-left.simptip-movable:before {
+    margin-right: -10px;
+}
+
+/* line 277, _tooltips.scss */
+.simptip-position-left.simptip-movable:after {
+    margin-right: 2px;
+}
+
+/* line 281, _tooltips.scss */
+.simptip-position-left.simptip-movable:hover:before, .simptip-position-left.simptip-movable:hover:after {
+    -webkit-transform: translateX(-10px);
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+    transform: translateX(-10px);
+}
+
+/* line 286, _tooltips.scss */
+.simptip-position-left.simptip-movable.half-arrow:before {
+    margin-right: -5px;
+}
+
+/* line 293, _tooltips.scss */
+.simptip-position-left.simptip-movable.simptip-multiline:hover:before, .simptip-position-left.simptip-movable.simptip-multiline:hover:after {
+    -webkit-transform: translate(-10px, 50%);
+    -moz-transform: translate(-10px, 50%);
+    -ms-transform: translate(-10px, 50%);
+    -o-transform: translate(-10px, 50%);
+    transform: translate(-10px, 50%);
+}
+
+/* line 305, _tooltips.scss */
+.simptip-position-left.half-arrow:before {
+    margin-right: 3px;
+    border-left: 7px solid #323232;
+}
+
+/* line 316, _tooltips.scss */
+.simptip-position-bottom:before, .simptip-position-top:before, .simptip-position-bottom:after, .simptip-position-top:after {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+/* line 321, _tooltips.scss */
+.simptip-position-bottom:after, .simptip-position-top:after {
+    width: auto;
+}
+
+/* line 327, _tooltips.scss */
+.half-arrow.simptip-position-bottom:before, .half-arrow.simptip-position-top:before {
+    border-style: none;
+    border-right: 7px solid #323232;
+}
+
+/* line 341, _tooltips.scss */
+.simptip-position-bottom:before, .simptip-position-bottom:after {
+    top: 100%;
+}
+
+/* line 344, _tooltips.scss */
+.simptip-position-bottom:before {
+    margin-top: -5px;
+}
+
+/* line 348, _tooltips.scss */
+.simptip-position-bottom:after {
+    margin-top: 7px;
+}
+
+/* line 352, _tooltips.scss */
+.simptip-position-bottom:hover:before, .simptip-position-bottom:hover:after {
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+/* line 359, _tooltips.scss */
+.simptip-position-bottom.simptip-movable:before {
+    margin-top: -15px;
+}
+
+/* line 362, _tooltips.scss */
+.simptip-position-bottom.simptip-movable:after {
+    margin-top: -3px;
+}
+
+/* line 366, _tooltips.scss */
+.simptip-position-bottom.simptip-movable:hover:before, .simptip-position-bottom.simptip-movable:hover:after {
+    -webkit-transform: translate(-50%, 10px);
+    -moz-transform: translate(-50%, 10px);
+    -ms-transform: translate(-50%, 10px);
+    -o-transform: translate(-50%, 10px);
+    transform: translate(-50%, 10px);
+}
+
+/* line 373, _tooltips.scss */
+.simptip-position-bottom.simptip-movable.half-arrow:before {
+    margin-top: -10px;
+}
+
+/* line 383, _tooltips.scss */
+.simptip-position-bottom.half-arrow:before {
+    margin-top: 0;
+    border-top: 7px solid transparent;
+}
+
+/* line 396, _tooltips.scss */
+.simptip-position-top:before, .simptip-position-top:after {
+    bottom: 100%;
+}
+
+/* line 399, _tooltips.scss */
+.simptip-position-top:before {
+    margin-bottom: -5px;
+}
+
+/* line 403, _tooltips.scss */
+.simptip-position-top:after {
+    margin-bottom: 7px;
+}
+
+/* line 407, _tooltips.scss */
+.simptip-position-top:hover:before, .simptip-position-top:hover:after {
+    -webkit-transform: translate(-50%, 0px);
+    -moz-transform: translate(-50%, 0px);
+    -ms-transform: translate(-50%, 0px);
+    -o-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+}
+
+/* line 414, _tooltips.scss */
+.simptip-position-top.simptip-movable:before {
+    margin-bottom: -15px;
+}
+
+/* line 417, _tooltips.scss */
+.simptip-position-top.simptip-movable:after {
+    margin-bottom: -3px;
+}
+
+/* line 421, _tooltips.scss */
+.simptip-position-top.simptip-movable:hover:before, .simptip-position-top.simptip-movable:hover:after {
+    -webkit-transform: translate(-50%, -10px);
+    -moz-transform: translate(-50%, -10px);
+    -ms-transform: translate(-50%, -10px);
+    -o-transform: translate(-50%, -10px);
+    transform: translate(-50%, -10px);
+}
+
+/* line 428, _tooltips.scss */
+.simptip-position-top.simptip-movable.half-arrow:before {
+    margin-bottom: -10px;
+}
+
+/* line 438, _tooltips.scss */
+.simptip-position-top.half-arrow:before {
+    margin-bottom: 0;
+    border-bottom: 7px solid transparent;
+}
+
+/******************************* Features ****************************/
+/* line 451, _tooltips.scss */
+.simptip-movable:before, .simptip-movable:after {
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+
+/* line 460, _tooltips.scss */
+.simptip-smooth:after {
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* line 469, _tooltips.scss */
+.simptip-fade:before, .simptip-fade:after {
+    -webkit-transition: opacity 0.2s linear, visibility 0.2s linear;
+    -moz-transition: opacity 0.2s linear, visibility 0.2s linear;
+    -o-transition: opacity 0.2s linear, visibility 0.2s linear;
+    -ms-transition: opacity 0.2s linear, visibility 0.2s linear;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
+}
+
+/* line 478, _tooltips.scss */
+.simptip-multiline:after {
+    height: auto;
+    width: 150px;
+    padding: 11px;
+    line-height: 19px;
+    white-space: normal;
+    text-align: left;
+}
+
+/**************************** Diverse Colors *************************/
+/* line 25, _tooltips.scss */
+.simptip-success.simptip-position-top:before {
+    border-top-color: #62c462;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-success.simptip-position-top:after {
+    background-color: #62c462;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-success.simptip-position-bottom:before {
+    border-bottom-color: #62c462;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-success.simptip-position-bottom:after {
+    background-color: #62c462;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-success.simptip-position-left:before {
+    border-left-color: #62c462;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-success.simptip-position-left:after {
+    background-color: #62c462;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-success.simptip-position-right:before {
+    border-right-color: #62c462;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-success.simptip-position-right:after {
+    background-color: #62c462;
+    color: #ecf0f1;
+}
+
+/* line 37, _tooltips.scss */
+.simptip-success.simptip-position-top.half-arrow:before {
+    border-right: 7px solid #62c462;
+}
+
+/* line 37, _tooltips.scss */
+.simptip-success.simptip-position-bottom.half-arrow:before {
+    border-right: 7px solid #62c462;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-info.simptip-position-top:before {
+    border-top-color: #5bc0de;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-info.simptip-position-top:after {
+    background-color: #5bc0de;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-info.simptip-position-bottom:before {
+    border-bottom-color: #5bc0de;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-info.simptip-position-bottom:after {
+    background-color: #5bc0de;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-info.simptip-position-left:before {
+    border-left-color: #5bc0de;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-info.simptip-position-left:after {
+    background-color: #5bc0de;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-info.simptip-position-right:before {
+    border-right-color: #5bc0de;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-info.simptip-position-right:after {
+    background-color: #5bc0de;
+    color: #ecf0f1;
+}
+
+/* line 37, _tooltips.scss */
+.simptip-info.simptip-position-top.half-arrow:before {
+    border-right: 7px solid #5bc0de;
+}
+
+/* line 37, _tooltips.scss */
+.simptip-info.simptip-position-bottom.half-arrow:before {
+    border-right: 7px solid #5bc0de;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-danger.simptip-position-top:before {
+    border-top-color: #e74c3c;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-danger.simptip-position-top:after {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-danger.simptip-position-bottom:before {
+    border-bottom-color: #e74c3c;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-danger.simptip-position-bottom:after {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-danger.simptip-position-left:before {
+    border-left-color: #e74c3c;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-danger.simptip-position-left:after {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-danger.simptip-position-right:before {
+    border-right-color: #e74c3c;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-danger.simptip-position-right:after {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+/* line 37, _tooltips.scss */
+.simptip-danger.simptip-position-top.half-arrow:before {
+    border-right: 7px solid #e74c3c;
+}
+
+/* line 37, _tooltips.scss */
+.simptip-danger.simptip-position-bottom.half-arrow:before {
+    border-right: 7px solid #e74c3c;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-warning.simptip-position-top:before {
+    border-top-color: #e67e22;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-warning.simptip-position-top:after {
+    background-color: #e67e22;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-warning.simptip-position-bottom:before {
+    border-bottom-color: #e67e22;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-warning.simptip-position-bottom:after {
+    background-color: #e67e22;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-warning.simptip-position-left:before {
+    border-left-color: #e67e22;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-warning.simptip-position-left:after {
+    background-color: #e67e22;
+    color: #ecf0f1;
+}
+
+/* line 25, _tooltips.scss */
+.simptip-warning.simptip-position-right:before {
+    border-right-color: #e67e22;
+}
+
+/* line 28, _tooltips.scss */
+.simptip-warning.simptip-position-right:after {
+    background-color: #e67e22;
+    color: #ecf0f1;
+}
+
+/* line 37, _tooltips.scss */
+.simptip-warning.simptip-position-top.half-arrow:before {
+    border-right: 7px solid #e67e22;
+}
+
+/* line 37, _tooltips.scss */
+.simptip-warning.simptip-position-bottom.half-arrow:before {
+    border-right: 7px solid #e67e22;
+}
+
+/* line 2, _collapse.scss */
+#colapse {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+}
+
+/* line 8, _collapse.scss */
+#colapse li {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 15px 0 0 0;
+    padding: 10px 0;
+    list-style: none;
+}
+
+/* line 16, _collapse.scss */
+#colapse li span {
+    width: 100%;
+    height: 22px;
+    margin: 0;
+    float: left;
+    padding: 0 0 0 0;
+    text-align: left !important;
+    font-size: 20px;
+    line-height: 13px;
+    color: #263F5F;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* line 29, _collapse.scss */
+#colapse li span:hover {
+    color: #000 !important;
+}
+
+/* line 33, _collapse.scss */
+#colapse li span.select {
+    color: #000 !important;
+}
+
+/* line 36, _collapse.scss */
+#colapse li span.select i {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* line 46, _collapse.scss */
+#colapse li span i {
+    width: 17px;
+    height: 15px;
+    float: left;
+    margin: 0 15px 0 0;
+    background: url(../imgs/seta.png) center left no-repeat;
+}
+
+/* line 57, _collapse.scss */
+.colapse_int {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+/* line 64, _collapse.scss */
+.colapse_int .box_colapse {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 20px 0 0 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* line 72, _collapse.scss */
+.colapse_int .box_colapse p {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0 0 0 55px;
+    font-size: 16px;
+    color: #7D8C9F;
+    line-height: 25px;
+    text-align: left;
+}
+
+/* line 13, style.scss */
+a {
+    -webkit-box-shadow: 0px 0px 5px #333333;
+    -moz-box-shadow: 0px 0px 5px #333333;
+    box-shadow: 0px 0px 5px #333333;
+}

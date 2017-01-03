@@ -1,0 +1,69 @@
+@import "compass";
+@import "config";
+@import "mixins";
+@import "init";
+
+// layout
+.responsive {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.fluid {
+  width: 100%;
+  height: auto;
+  float: left;
+  clear: both;
+}
+
+/******************************
+* Estrutura interna
+*******************************/
+
+/******************************
+* swipper
+*******************************/
+.swiper-wrapper {
+  opacity: 0;
+}
+
+#destaque {
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #fff;
+  }
+}
+
+#destaque {
+  .swiper-container-horizontal {
+    &.swiper-pagination-bullets {
+      bottom: 20px;
+    }
+  }
+}
+
+.swiper-button-disabled {
+  cursor: no-drop !important;
+}
+
+/******************************
+* Helper
+*******************************/
+
+.centraliza {
+  //noinspection CssInvalidPropertyValue
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  /* centraliza na vertical */
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+  /* centraliza na horizontal */
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}

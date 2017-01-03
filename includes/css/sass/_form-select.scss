@@ -1,0 +1,47 @@
+@import "compass";
+@import "config";
+@import "mixins";
+@import "init";
+
+@mixin mp-form-select($tamanho, $border-radius, $tamanho-border-radius, $tamanho-borda, $cor-borda, $cor-borda-hover, $tamanho-fonte,
+                      $cor-fonte, $weight) {
+  .form-select {
+    width: 100%;
+    float: left;
+    height: $tamanho;
+    background: url(../../imgs/seta-form.png) no-repeat right center;
+    @include mp-animacao;
+
+    @if $border-radius == true {
+      @include mp-br($tamanho-border-radius);
+    }
+
+    border: $tamanho-borda solid $cor-borda;
+
+    &:hover {
+      border-color: $cor-borda-hover;
+    }
+
+    select {
+      width: 100%;
+      height: $tamanho;
+      float: left;
+      position: relative;
+      opacity: 0;
+      cursor: pointer;
+      margin-top: -$tamanho + 2px;
+    }
+
+    strong {
+      width: auto;
+      height: $tamanho;
+      line-height: $tamanho;
+      margin: 0 0 0 15px;
+      color: $cor-fonte;
+      font-size: $tamanho-fonte;
+    }
+  }
+}
+
+//como usar
+//@include mp-form-select(50px, false, 2px,2px,2px,2px, #00f, $corPrincipal, 14px, #ccc, 400);
