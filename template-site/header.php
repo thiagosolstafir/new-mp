@@ -13,8 +13,9 @@
     <meta property="og:description" content=""/>
     <meta property="og:image" content=""/>
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo $mainFolder; ?>/includes/css/style.css?<?php echo rand(); ?>"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css">
 
     <script src="<?php echo $mainFolder; ?>/includes/js/jquery.js" type="text/javascript"></script>
     <script src="<?php echo $mainFolder; ?>/includes/js/jquery.mask.js" type="text/javascript"></script>
@@ -58,11 +59,9 @@
             switch (idlightbox) {
 
                 case 1:
-                    url = '/afroditemodapraia.com.br/lightbox/processa.galeria';
+                    url = '/afroditemodapraia.com.br/lightbox/processa.page';
                     break;
-                case 2:
-                    url = '/afroditemodapraia.com.br/lightbox/processa.catalogo';
-                    break;
+
             }
 
             if (num == 1) {
@@ -118,14 +117,41 @@
 
 <body>
 
-<div id="lt">
-    <div id="lt_int"></div>
+<div class="m-mobile off-canvas position-left" id="offCanvasLeft" data-off-canvas>
+
+    <!-- Close button -->
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <span aria-hidden="true">&times;</span>
+    </button>
+
+    <!-- Menu -->
+    <ul class="vertical menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">A Empresa</a></li>
+        <li><a href="#">Pedidos</a></li>
+        <li><a href="#">Contato</a></li>
+        <div class="divider"></div>
+        <li><a href="#">Corretivos de Solo</a></li>
+        <li><a href="#">Fertilizantes</a></li>
+        <li><a href="#">Material de Construção</a></li>
+        <li><a href="#">Transpote de Calcário</a></li>
+        <li><a href="#">Informações Agronômicas</a></li>
+        <li><a href="#">Notícias</a></li>
+        <li><a href="#">Parceiros</a></li>
+    </ul>
+
 </div>
 
-<div id="lt_page">
-    <div id="lt_int_page">
-    </div>
+<div class="off-canvas-content" data-off-canvas-content>
+
+    <div id="lt">
+        <div id="lt_int"></div>
+</div>
+
+    <div id="lt_page">
+        <div id="lt_int_page">
+        </div>
 </div>
 
 
-<header></header>
+    <header></header>

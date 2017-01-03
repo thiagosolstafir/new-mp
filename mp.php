@@ -1,22 +1,9 @@
 <?php
 
-/*
- * MEDIAPLUS - LENNON LEMOS
- * - Multiplos parametros
- * - Desativação de erros e mensagens de warning para os usuarios
- * - pagina default estatica
- */
-$pageTitle = "Titulo do site";
-$mainFolder = "/new-mp"; // diretorio
-$urlFile = "#"; // url arquivosne
+$pageTitle = "Agrofer";
+$mainFolder = "/agrofer.com.br"; // diretorio
+$urlFile = "#"; // url arquivos
 
-/*
- * ATENÇÃO!!!
- * Descomentar error_reporting e ini_set abaixo com intuito de desativar as mensagens de erros quando upar o site no servidor
- */
-
-//error_reporting(0);
-//ini_set("display_errors",0);
 
 
 @session_start();

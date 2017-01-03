@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteRule ^(.*)\/?$ /new-mp/mp.php?url=$1
+RewriteRule ^(.*)\/?$ /agrofer.com.br/mp.php?url=$1

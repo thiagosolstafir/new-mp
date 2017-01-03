@@ -101,36 +101,6 @@ $(document).ready(function (e) {
     }
 
 
-    //menu mobile
-    $("#bt_menu").click(function () {
-        $(this).toggleClass('open');
-        $("#area_menu_mobile").toggleClass("slideRight", 200);
-        if (controle_click == false) {
-            $('#area_menu_mobile').css({
-                'z-index': '9999999'
-            });
-            $("#area_menu_mobile").css('left', '0');
-            $('#mask_menu').fadeIn(200);
-            lock_scroll();
-            controle_click = true;
-        } else {
-            unlock_scroll();
-            $("#area_menu_mobile").css('left', '-250px');
-            $('#mask_menu').fadeOut(200);
-            controle_click = false;
-        }
-    });
-
-    $("#menu_mobile ul li a, #mask_menu").click(function () {
-        $("#bt_menu").toggleClass('open');
-        $("#bt_menu").removeClass('open');
-        $("#area_menu_mobile").toggleClass("slideRight", 200);
-        $("#area_menu_mobile").css('left', '-250px');
-        unlock_scroll()
-        $('#mask_menu').fadeOut(200);
-        controle_click = false;
-    });
-
     // Evento responsável por monitorar o evento de redimensionamento
     window.onresize = ajust;
 
